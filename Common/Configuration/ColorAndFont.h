@@ -8,6 +8,7 @@
 
 #ifndef ColorAndFont_h
 #define ColorAndFont_h
+#import "InlineDefault1.h"
 
 ///字体颜色
 static inline UIColor *greenColor() {
