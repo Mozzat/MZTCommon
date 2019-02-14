@@ -7,9 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseNavigationController.h"
-#import "MainTabBarVC.h"
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
 @interface Util : NSObject
 
@@ -54,7 +52,7 @@
 ///数量单位转换
 + (NSString *)CountReturnString:(NSInteger)num;
 
-+ (NSString *)returnHeadImageStr:(NSString *)headStr;
+//+ (NSString *)returnHeadImageStr:(NSString *)headStr;
 
 #pragma mark---时间转换
 + (NSString *)returnTimeStringWithDate:(NSDate *)date WithFormaterType:(NSString *)formaer;
@@ -89,7 +87,7 @@
 + (NSArray *)removeDuplicateArr1:(NSArray *)modelData WithArr2:(NSMutableArray *)modelData1;
 
 ///获取当前控制器的导航栏控制器
-+ (BaseNavigationController *)getCurrentNavigationVC;
+//+ (BaseNavigationController *)getCurrentNavigationVC;
 
 ///获取邮箱地址
 + (BOOL)isValidateEmail:(NSString *)email;
@@ -116,7 +114,7 @@
 
  @return 当前控制器
  */
-+ (BaseViewController *)getCurrentVC;
+//+ (BaseViewController *)getCurrentVC;
 
 
 /**

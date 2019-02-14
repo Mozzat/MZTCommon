@@ -9,21 +9,10 @@
 #ifndef MZTCommon_h
 #define MZTCommon_h
 
-#import "AppKey.h"
-#import "ColorAndFont.h"
-#import "UIScrollView+NavigationView.h"
-#import "ScrollViewNavigationView.h"
-#import "UIButton+ImageTitleSpacing.h"
-#import "UIButton+Load.m"
-#import "PlaceHolderView.h"
-#import "UIView+Common.h"
-#import "UIView+PlaceHolderImage.h"
-#import "ScrollViewNavigationView.h"
-#import "UIButton+ImageTitleSpacing.h"
-#import "UITextView+Placeholder.h"
-#import "UIImageView+Load.h"
-#import "UIImageView+LBBlurredImage.h"
-#import "AnimationImageView.h"
-#import "TableViewRefresh.h"
+#import "AppKey.h" ///账号key值配置
+#import "ColorAndFont.h" ///颜色字号配置
+#import "InlineDefault1.h" ///一些宏定义
+#import "UIView+Common.h"  ///
+#import "Util.h"  ///工具类
 
 #endif /* MZTCommon_h */

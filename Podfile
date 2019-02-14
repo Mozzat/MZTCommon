@@ -6,6 +6,7 @@ target 'MZTCommonDemo' do
   # use_frameworks!
   
   pod 'SDWebImage'
+  pod 'Masonry'
   # Pods for MZTCommonDemo
 
   target 'MZTCommonDemoTests' do

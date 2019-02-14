@@ -16,21 +16,7 @@
 		7695C7A5221500F000ADD365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7A4221500F000ADD365 /* main.m */; };
 		7695C7AF221500F000ADD365 /* MZTCommonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7AE221500F000ADD365 /* MZTCommonDemoTests.m */; };
 		7695C7BA221500F000ADD365 /* MZTCommonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7B9221500F000ADD365 /* MZTCommonDemoUITests.m */; };
-		7695C7F62215022800ADD365 /* UIScrollView+NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7CD2215022800ADD365 /* UIScrollView+NavigationView.m */; };
-		7695C7F72215022800ADD365 /* ScrollViewNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7D02215022800ADD365 /* ScrollViewNavigationView.m */; };
-		7695C7F82215022800ADD365 /* UIButton+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7D32215022800ADD365 /* UIButton+Load.m */; };
-		7695C7F92215022800ADD365 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7D52215022800ADD365 /* UIButton+ImageTitleSpacing.m */; };
-		7695C7FA2215022800ADD365 /* PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7D72215022800ADD365 /* PlaceHolderView.m */; };
 		7695C7FB2215022800ADD365 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7D82215022800ADD365 /* UIView+Common.m */; };
-		7695C7FC2215022800ADD365 /* UIView+PlaceHolderImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7DC2215022800ADD365 /* UIView+PlaceHolderImage.m */; };
-		7695C7FD2215022800ADD365 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7DE2215022800ADD365 /* UITextView+Placeholder.m */; };
-		7695C7FE2215022800ADD365 /* UIImageView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7E12215022800ADD365 /* UIImageView+Load.m */; };
-		7695C7FF2215022800ADD365 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7E42215022800ADD365 /* UIImageView+LBBlurredImage.m */; };
-		7695C8002215022800ADD365 /* AnimationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7E62215022800ADD365 /* AnimationImageView.m */; };
-		7695C8012215022800ADD365 /* UIScrollView+Refrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7EC2215022800ADD365 /* UIScrollView+Refrash.m */; };
-		7695C8022215022800ADD365 /* NoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7ED2215022800ADD365 /* NoDataView.m */; };
-		7695C8032215022800ADD365 /* CustomeRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7EE2215022800ADD365 /* CustomeRefreshView.m */; };
-		7695C8042215022800ADD365 /* UITableView+NoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7F02215022800ADD365 /* UITableView+NoData.m */; };
 		7695C8052215022800ADD365 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7F22215022800ADD365 /* Util.m */; };
 		7695C8062215022800ADD365 /* AppVersionManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695C7F32215022800ADD365 /* AppVersionManger.m */; };
 		AECBD505D2B65FF36B58FBEA /* libPods-MZTCommonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E3470D4C2BF7ACC8C44F5 /* libPods-MZTCommonDemo.a */; };
@@ -75,43 +61,15 @@
 		7695C7B9221500F000ADD365 /* MZTCommonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZTCommonDemoUITests.m; sourceTree = "<group>"; };
 		7695C7BB221500F000ADD365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7695C7C92215022800ADD365 /* AppKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKey.h; sourceTree = "<group>"; };
-		7695C7CA2215022800ADD365 /* ColorAndFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorAndFont.h; sourceTree = "<group>"; };
-		7695C7CD2215022800ADD365 /* UIScrollView+NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+NavigationView.m"; sourceTree = "<group>"; };
-		7695C7CE2215022800ADD365 /* ScrollViewNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewNavigationView.h; sourceTree = "<group>"; };
-		7695C7CF2215022800ADD365 /* UIScrollView+NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+NavigationView.h"; sourceTree = "<group>"; };
-		7695C7D02215022800ADD365 /* ScrollViewNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewNavigationView.m; sourceTree = "<group>"; };
-		7695C7D22215022800ADD365 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		7695C7D32215022800ADD365 /* UIButton+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Load.m"; sourceTree = "<group>"; };
-		7695C7D42215022800ADD365 /* UIButton+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Load.h"; sourceTree = "<group>"; };
-		7695C7D52215022800ADD365 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		7695C7D72215022800ADD365 /* PlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderView.m; sourceTree = "<group>"; };
 		7695C7D82215022800ADD365 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
-		7695C7D92215022800ADD365 /* UIView+PlaceHolderImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PlaceHolderImage.h"; sourceTree = "<group>"; };
-		7695C7DA2215022800ADD365 /* PlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderView.h; sourceTree = "<group>"; };
 		7695C7DB2215022800ADD365 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
-		7695C7DC2215022800ADD365 /* UIView+PlaceHolderImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PlaceHolderImage.m"; sourceTree = "<group>"; };
-		7695C7DE2215022800ADD365 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
-		7695C7DF2215022800ADD365 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		7695C7E12215022800ADD365 /* UIImageView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Load.m"; sourceTree = "<group>"; };
-		7695C7E22215022800ADD365 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
-		7695C7E32215022800ADD365 /* AnimationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationImageView.h; sourceTree = "<group>"; };
-		7695C7E42215022800ADD365 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
-		7695C7E52215022800ADD365 /* UIImageView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Load.h"; sourceTree = "<group>"; };
-		7695C7E62215022800ADD365 /* AnimationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationImageView.m; sourceTree = "<group>"; };
-		7695C7E82215022800ADD365 /* TableViewRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewRefresh.h; sourceTree = "<group>"; };
-		7695C7E92215022800ADD365 /* NoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoDataView.h; sourceTree = "<group>"; };
-		7695C7EA2215022800ADD365 /* CustomeRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeRefreshView.h; sourceTree = "<group>"; };
-		7695C7EB2215022800ADD365 /* UITableView+NoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NoData.h"; sourceTree = "<group>"; };
-		7695C7EC2215022800ADD365 /* UIScrollView+Refrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refrash.m"; sourceTree = "<group>"; };
-		7695C7ED2215022800ADD365 /* NoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDataView.m; sourceTree = "<group>"; };
-		7695C7EE2215022800ADD365 /* CustomeRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeRefreshView.m; sourceTree = "<group>"; };
-		7695C7EF2215022800ADD365 /* UIScrollView+Refrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refrash.h"; sourceTree = "<group>"; };
-		7695C7F02215022800ADD365 /* UITableView+NoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NoData.m"; sourceTree = "<group>"; };
 		7695C7F22215022800ADD365 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		7695C7F32215022800ADD365 /* AppVersionManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppVersionManger.m; sourceTree = "<group>"; };
 		7695C7F42215022800ADD365 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		7695C7F52215022800ADD365 /* AppVersionManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppVersionManger.h; sourceTree = "<group>"; };
 		7695C8072215027700ADD365 /* MZTCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZTCommon.h; sourceTree = "<group>"; };
+		7695C8162215437F00ADD365 /* InlineDefault1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InlineDefault1.h; sourceTree = "<group>"; };
+		7695C817221543F100ADD365 /* ColorAndFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorAndFont.h; sourceTree = "<group>"; };
 		7D550EA0EEE3C4B27D8A0A70 /* Pods-MZTCommonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZTCommonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZTCommonDemo/Pods-MZTCommonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8E44A6D244513A0B16D5DE7D /* Pods-MZTCommonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZTCommonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZTCommonDemo/Pods-MZTCommonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		92C0D7242BF00A3DFA03F00E /* libPods-MZTCommonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZTCommonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,8 +177,9 @@
 		7695C7C82215022800ADD365 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				7695C817221543F100ADD365 /* ColorAndFont.h */,
 				7695C7C92215022800ADD365 /* AppKey.h */,
-				7695C7CA2215022800ADD365 /* ColorAndFont.h */,
+				7695C8162215437F00ADD365 /* InlineDefault1.h */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -228,87 +187,18 @@
 		7695C7CB2215022800ADD365 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				7695C7CC2215022800ADD365 /* UIScrollView */,
-				7695C7D12215022800ADD365 /* UIButton */,
 				7695C7D62215022800ADD365 /* UIView */,
-				7695C7DD2215022800ADD365 /* UITextView */,
-				7695C7E02215022800ADD365 /* UIImageView */,
-				7695C7E72215022800ADD365 /* UITableView */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		7695C7CC2215022800ADD365 /* UIScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				7695C7CF2215022800ADD365 /* UIScrollView+NavigationView.h */,
-				7695C7CD2215022800ADD365 /* UIScrollView+NavigationView.m */,
-				7695C7CE2215022800ADD365 /* ScrollViewNavigationView.h */,
-				7695C7D02215022800ADD365 /* ScrollViewNavigationView.m */,
-			);
-			path = UIScrollView;
-			sourceTree = "<group>";
-		};
-		7695C7D12215022800ADD365 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				7695C7D22215022800ADD365 /* UIButton+ImageTitleSpacing.h */,
-				7695C7D52215022800ADD365 /* UIButton+ImageTitleSpacing.m */,
-				7695C7D32215022800ADD365 /* UIButton+Load.m */,
-				7695C7D42215022800ADD365 /* UIButton+Load.h */,
-			);
-			path = UIButton;
 			sourceTree = "<group>";
 		};
 		7695C7D62215022800ADD365 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				7695C7DA2215022800ADD365 /* PlaceHolderView.h */,
-				7695C7D72215022800ADD365 /* PlaceHolderView.m */,
 				7695C7DB2215022800ADD365 /* UIView+Common.h */,
 				7695C7D82215022800ADD365 /* UIView+Common.m */,
-				7695C7D92215022800ADD365 /* UIView+PlaceHolderImage.h */,
-				7695C7DC2215022800ADD365 /* UIView+PlaceHolderImage.m */,
 			);
 			path = UIView;
-			sourceTree = "<group>";
-		};
-		7695C7DD2215022800ADD365 /* UITextView */ = {
-			isa = PBXGroup;
-			children = (
-				7695C7DF2215022800ADD365 /* UITextView+Placeholder.h */,
-				7695C7DE2215022800ADD365 /* UITextView+Placeholder.m */,
-			);
-			path = UITextView;
-			sourceTree = "<group>";
-		};
-		7695C7E02215022800ADD365 /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				7695C7E52215022800ADD365 /* UIImageView+Load.h */,
-				7695C7E12215022800ADD365 /* UIImageView+Load.m */,
-				7695C7E22215022800ADD365 /* UIImageView+LBBlurredImage.h */,
-				7695C7E42215022800ADD365 /* UIImageView+LBBlurredImage.m */,
-				7695C7E32215022800ADD365 /* AnimationImageView.h */,
-				7695C7E62215022800ADD365 /* AnimationImageView.m */,
-			);
-			path = UIImageView;
-			sourceTree = "<group>";
-		};
-		7695C7E72215022800ADD365 /* UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				7695C7E82215022800ADD365 /* TableViewRefresh.h */,
-				7695C7E92215022800ADD365 /* NoDataView.h */,
-				7695C7ED2215022800ADD365 /* NoDataView.m */,
-				7695C7EA2215022800ADD365 /* CustomeRefreshView.h */,
-				7695C7EE2215022800ADD365 /* CustomeRefreshView.m */,
-				7695C7EB2215022800ADD365 /* UITableView+NoData.h */,
-				7695C7F02215022800ADD365 /* UITableView+NoData.m */,
-				7695C7EF2215022800ADD365 /* UIScrollView+Refrash.h */,
-				7695C7EC2215022800ADD365 /* UIScrollView+Refrash.m */,
-			);
-			path = UITableView;
 			sourceTree = "<group>";
 		};
 		7695C7F12215022800ADD365 /* util */ = {
@@ -547,26 +437,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7695C7FE2215022800ADD365 /* UIImageView+Load.m in Sources */,
-				7695C7F92215022800ADD365 /* UIButton+ImageTitleSpacing.m in Sources */,
 				7695C7FB2215022800ADD365 /* UIView+Common.m in Sources */,
-				7695C7FF2215022800ADD365 /* UIImageView+LBBlurredImage.m in Sources */,
 				7695C79A221500EE00ADD365 /* ViewController.m in Sources */,
-				7695C7FA2215022800ADD365 /* PlaceHolderView.m in Sources */,
-				7695C7FD2215022800ADD365 /* UITextView+Placeholder.m in Sources */,
-				7695C8032215022800ADD365 /* CustomeRefreshView.m in Sources */,
-				7695C8042215022800ADD365 /* UITableView+NoData.m in Sources */,
-				7695C8002215022800ADD365 /* AnimationImageView.m in Sources */,
-				7695C7FC2215022800ADD365 /* UIView+PlaceHolderImage.m in Sources */,
-				7695C8022215022800ADD365 /* NoDataView.m in Sources */,
-				7695C7F82215022800ADD365 /* UIButton+Load.m in Sources */,
 				7695C7A5221500F000ADD365 /* main.m in Sources */,
-				7695C7F62215022800ADD365 /* UIScrollView+NavigationView.m in Sources */,
-				7695C7F72215022800ADD365 /* ScrollViewNavigationView.m in Sources */,
 				7695C797221500EE00ADD365 /* AppDelegate.m in Sources */,
 				7695C8052215022800ADD365 /* Util.m in Sources */,
 				7695C8062215022800ADD365 /* AppVersionManger.m in Sources */,
-				7695C8012215022800ADD365 /* UIScrollView+Refrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

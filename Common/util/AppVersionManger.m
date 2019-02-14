@@ -7,7 +7,7 @@
 //
 
 #import "AppVersionManger.h"
-#import "HttpManagerRequest.h"
+//#import "HttpManagerRequest.h"
 
 @implementation AppVersionManger
 

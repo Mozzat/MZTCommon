@@ -7,6 +7,7 @@
 //
 
 #import "Util.h"
+#import "AppKey.h"
 
 @implementation Util
 
@@ -188,19 +189,19 @@
     
 }
 
-+ (NSString *)returnHeadImageStr:(NSString *)headStr{
-    
-    NSString *headStr1 = nil;
-    if ([BaseUrl containsString:@"www.geekerx"]) {
-        headStr1 = [NSString stringWithFormat:@"http://47.100.41.160:8686/images%@",headStr];
-        
-    } else {
-        headStr1 = [NSString stringWithFormat:@"http://192.168.50.194:8686/images%@",headStr];
-    }
-    
-    return headStr1;
-    
-}
+//+ (NSString *)returnHeadImageStr:(NSString *)headStr{
+//
+//    NSString *headStr1 = nil;
+//    if ([BaseUrl containsString:@"www.geekerx"]) {
+//        headStr1 = [NSString stringWithFormat:@"http://47.100.41.160:8686/images%@",headStr];
+//
+//    } else {
+//        headStr1 = [NSString stringWithFormat:@"http://192.168.50.194:8686/images%@",headStr];
+//    }
+//
+//    return headStr1;
+//
+//}
 
 ///时间戳转提示字符串
 - (NSString *)timeBeforeInfoWithString:(NSTimeInterval)timeIntrval{
@@ -323,20 +324,20 @@
 
 + (NSArray *)removeDuplicateArr1:(NSArray *)modelData WithArr2:(NSMutableArray *)modelData1{
     
-    NSMutableDictionary *mutableDic = [NSMutableDictionary dictionary];
-    for (BaseModel *model in modelData1) {
-        [mutableDic setObject:model forKey:@(model.ID).stringValue];
-        
-    }
-    
-    for (BaseModel *model in modelData) {
-        [mutableDic setObject:model forKey:@(model.ID).stringValue];
-        
-    }
-    
-    NSArray *dataArr = [mutableDic allValues];
-    NSSortDescriptor *timeSD = [NSSortDescriptor sortDescriptorWithKey:@"ID" ascending:NO];
-    NSArray *resultArr = [dataArr sortedArrayUsingDescriptors:@[timeSD]];
+//    NSMutableDictionary *mutableDic = [NSMutableDictionary dictionary];
+//    for (BaseModel *model in modelData1) {
+//        [mutableDic setObject:model forKey:@(model.ID).stringValue];
+//
+//    }
+//
+//    for (BaseModel *model in modelData) {
+//        [mutableDic setObject:model forKey:@(model.ID).stringValue];
+//
+//    }
+//
+//    NSArray *dataArr = [mutableDic allValues];
+//    NSSortDescriptor *timeSD = [NSSortDescriptor sortDescriptorWithKey:@"ID" ascending:NO];
+//    NSArray *resultArr = [dataArr sortedArrayUsingDescriptors:@[timeSD]];
 //    NSArray *resultArr = [dataArr sortedArrayUsingComparator:^NSComparisonResult(BaseModel *obj1, BaseModel *obj2) {
 //
 //        NSString *compareId = @(obj1.ID).stringValue;
@@ -344,54 +345,54 @@
 //        return [compareId1 compare:compareId];
 //
 //    }];
-    return resultArr;
+    return @[];
     
 }
 
-+ (BaseNavigationController *)getCurrentNavigationVC{
-    
-    MainTabBarVC *tabbar = (MainTabBarVC *)[UIApplication sharedApplication].keyWindow.rootViewController;
-    return tabbar.selectedViewController;
-    
-}
+//+ (BaseNavigationController *)getCurrentNavigationVC{
+//
+//    MainTabBarVC *tabbar = (MainTabBarVC *)[UIApplication sharedApplication].keyWindow.rootViewController;
+//    return tabbar.selectedViewController;
+//
+//}
 
-+ (BaseViewController *)getCurrentVC
-{
-    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
-    
-    BaseViewController *currentVC = [self getCurrentVCFrom:rootViewController];
-    
-    return currentVC;
-}
+//+ (BaseViewController *)getCurrentVC
+//{
+//    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+//
+//    BaseViewController *currentVC = [self getCurrentVCFrom:rootViewController];
+//
+//    return currentVC;
+//}
 
-+ (BaseViewController *)getCurrentVCFrom:(UIViewController *)rootVC
-{
-    BaseViewController *currentVC;
-    
-    if ([rootVC presentedViewController]) {
-        // 视图是被presented出来的
-        
-        rootVC = [rootVC presentedViewController];
-    }
-    
-    if ([rootVC isKindOfClass:[UITabBarController class]]) {
-        // 根视图为UITabBarController
-        
-        currentVC = [self getCurrentVCFrom:[(UITabBarController *)rootVC selectedViewController]];
-        
-    } else if ([rootVC isKindOfClass:[UINavigationController class]]){
-        // 根视图为UINavigationController
-        
-        currentVC = [self getCurrentVCFrom:[(UINavigationController *)rootVC visibleViewController]];
-        
-    } else {
-        // 根视图为非导航类
-        
-        currentVC = rootVC;
-    }
-    
-    return currentVC;
-}
+//+ (BaseViewController *)getCurrentVCFrom:(UIViewController *)rootVC
+//{
+//    BaseViewController *currentVC;
+//
+//    if ([rootVC presentedViewController]) {
+//        // 视图是被presented出来的
+//
+//        rootVC = [rootVC presentedViewController];
+//    }
+//
+//    if ([rootVC isKindOfClass:[UITabBarController class]]) {
+//        // 根视图为UITabBarController
+//
+//        currentVC = [self getCurrentVCFrom:[(UITabBarController *)rootVC selectedViewController]];
+//
+//    } else if ([rootVC isKindOfClass:[UINavigationController class]]){
+//        // 根视图为UINavigationController
+//
+//        currentVC = [self getCurrentVCFrom:[(UINavigationController *)rootVC visibleViewController]];
+//
+//    } else {
+//        // 根视图为非导航类
+//
+//        currentVC = rootVC;
+//    }
+//
+//    return currentVC;
+//}
 
 + (BOOL)isValidateEmail:(NSString *)email{
     
